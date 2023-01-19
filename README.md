@@ -5,7 +5,7 @@ There are 5 Courses in this Specialization
 |:--:|--|--|:--:|
 | 1 |Neural Networks and Deep Learning  |1. Introduction to Deep Learning <br> 2. Neural Networks Basics <br> 3. Shallow Neural Networks <br> 4. Deep Neural Networks|:white_large_square:|
 |2|Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization|1. Practical aspects of Deep Learning <br> 2. Optimization algorithms <br> 3. Hyperparameter tuning, Batch Normalization and Programming Frameworks |:white_large_square:|
-|3|Structuring Machine Learning Projects|1. ML Strategy (1) <br> 2. ML Strategy (2)|:white_check_mark:|
+|3|[Structuring Machine Learning Projects](https://github.com/Rai-Nabin/Deep-Learning-Specialization/blob/main/03-Structuring%20Machine%20Learning%20Projects/README.md)|1. ML Strategy (1) <br> 2. ML Strategy (2)|:white_check_mark:|
 |4|Convolutional Neural Networks|1. Foundations of Convolutional Neural Networks <br> 2. Classic Networks <br> 3. Object Detection <br> 4. Special applications: Face recognition and Neural style transfer|:white_large_square:|
 |5|Sequence Models|1. Recurrent Neural Networks <br> 2. Natural Language Processing and Word Embeddings <br> 3. Sequence models and Attention mechanism|:white_large_square:|
 
