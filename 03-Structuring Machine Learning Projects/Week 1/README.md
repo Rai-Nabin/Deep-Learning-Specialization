@@ -36,6 +36,8 @@ For a supervised learning system to do well, you usually need to tune the knobs 
 |Fit test set well on cost function |If it's not achieved, you could try bigger dev set. |
 |Performs well in real world |If it's not achieved, you could change dev set, cost function etc. (Either the dev test set distribution is not correct or the cost function not right) |
 
+**Early stopping**, though not a bad technique, is a knob that simultaneously affects the training set and development set performance and therefore is less orthogonalized, so Andrew tends not to use it.
+
 **3. Setting up your goal**
 
 **4. Comparing to human level performance**
