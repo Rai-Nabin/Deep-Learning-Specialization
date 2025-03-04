@@ -121,3 +121,83 @@
 
 - The factors driving deep learning's success—data, computation, and algorithms—are expected to continue improving.
 - This suggests that deep learning will continue to advance for years to come.
+
+### Heroes of Deep Learning
+**Guest:** Geoffrey Hinton
+
+**Early Influences and Career Path:**
+
+- Hinton's interest in the brain and memory began in high school, sparked by discussions about holograms.
+- He pursued studies in physiology, physics, philosophy, and psychology, finding each lacking in explaining brain function.
+- He eventually turned to AI, studying at Edinburgh, where he faced initial resistance to his focus on neural networks.
+- A Sloan Fellowship took him to California, where he found a more receptive environment for neural network research.
+
+**Key Contributions to Deep Learning:**
+
+- **Backpropagation:**
+    - While not the sole inventor, Hinton and his colleagues (David Rumelhart and Ron Williams) played a crucial role in popularizing the algorithm.  
+    - Their 1986 Nature paper, aided by Hinton's strategic communication with reviewers, demonstrated backpropagation's ability to learn meaningful word representations.  
+    - This work bridged the gap between feature-based and structured representations of knowledge.
+- **Boltzmann Machines:**
+	- Hinton considers his work on Boltzmann machines, particularly with Terry Sejnowski, to be his most elegant contribution.  
+	- He highlighted the simple learning algorithm and its biological plausibility.
+	- The development of Restricted Boltzmann Machines (RBMs) made these concepts practically applicable, contributing to the resurgence of deep learning.
+- **Deep Belief Networks:**
+	- Hinton's work on deep belief networks, including the use of RBMs for pre-training, provided an effective way to train deep neural networks.  
+	- This allowed for efficient inference in sigmoid belief networks.
+- **Variational Methods:**
+    - He contributed to the development of variational methods, showing that approximate inference could significantly improve the efficiency of algorithms like EM.
+    - He also published one of the first Variational Bayes papers.
+- **ReLU Activation Functions:**
+    - Hinton's group played a role in popularizing ReLU activations, demonstrating their equivalence to stacks of logistic units.
+    - He also discovered the benefit of initializing networks with the identity matrix when using ReLUs.
+- **Fast Weights:**
+    - He has worked on fast weights, that adapt and decay rapidly, for modeling multiple time scales in deep learning. This allows for short term memory.  
+- **Capsules:**
+    - Hinton is currently focused on capsule networks, which he believes will significantly improve neural network generalization.  
+    - Capsules represent multidimensional entities and enable "routing by agreement," a novel filtering mechanism.
+
+**Insights and Current Research:**
+
+- **Brain and Backpropagation:**
+    - Hinton believes that the brain likely implements a form of backpropagation, despite skepticism from neuroscientists.  
+    - He has explored alternative algorithms, such as recirculation, that could approximate backpropagation in biological systems.  
+- **Multiple Time Scales:**
+    - He is continuing to investigate how to model multiple time scales in deep learning, building on his early work with fast weights.
+- **Capsules:**
+    - He is passionate about capsule networks, which he believes offer a more structured and efficient approach to representation learning.
+    - He believes that routing by agreement will be crucial for improving neural network generalization.
+
+**Current Research and Perspectives:**
+
+- **Capsule Networks:**
+    - Hinton reiterates his strong belief in capsule networks and their potential to revolutionize image recognition and object representation.
+    - He emphasizes "routing by agreement" as a key mechanism for improving generalization and handling viewpoint changes.
+    - He is actively working on incorporating backpropagation into capsule network training.
+- **Evolution of AI Understanding:**
+    - Hinton discusses his shift from a focus on supervised learning in the mid-1980s to unsupervised learning in the early 1990s, and then back to supervised learning as it proved more effective in recent years.
+    - He still firmly believes in the long-term importance of unsupervised learning.
+    - He acknowledges the significance of Generative Adversarial Networks (GANs) as a major breakthrough.
+- **Linearity and Representation:**
+    - Hinton introduces a principle of transforming measurements into representations where actions become linear.
+    - He illustrates this with the example of viewpoint changes, where coordinate representations allow for linear transformations.
+- **Paradigm Shift in AI:**
+    - Hinton argues for a paradigm shift from symbolic AI to a vector-based representation of thoughts.
+    - He criticizes the idea that thoughts are symbolic expressions, comparing it to the notion that spatial understanding is based on pixels.
+    - He believes that neural activity vectors are the true representation of thought.
+
+**Advice for Aspiring Deep Learning Practitioners:**
+
+- **Read Selectively and Trust Your Intuition:**
+    - Hinton advises against excessive literature review, encouraging individuals to identify and challenge prevailing assumptions.
+    - He emphasizes the importance of trusting one's intuition, even when faced with skepticism.
+- **Programming Proficiency:**
+    - He stresses the importance of continuous programming practice, highlighting its role in discovering crucial details and developing problem-solving skills.
+- **Embrace Skepticism:**
+    - He suggests that strong opposition to an idea can be a sign of its potential significance.
+- **Seek Aligned Mentorship:**
+    - He advises students to find advisors who share their research interests and beliefs.
+- **PhD vs. Industry:**
+    - He acknowledges the current shortage of deep learning faculty and the role of industry in training researchers.
+    - He anticipates that universities will eventually adapt to the growing demand for deep learning education.
+
